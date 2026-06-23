@@ -1,4 +1,4 @@
-# DocuMind — Local Generative AI Document Assistant (RAG)
+ DocuMind — Local Generative AI Document Assistant (RAG)
 
 Ask natural-language questions over your own documents (PDF / TXT / MD) and get
 answers grounded in the source text, **with citations**. Everything runs locally
@@ -39,7 +39,7 @@ uvicorn app:app --reload           # open http://127.0.0.1:8000/docs
 > First run downloads the two models from Hugging Face (~80 MB embeddings +
 > ~1 GB LLM) and caches them. Subsequent runs are offline.
 
-## How it works (the parts an interviewer will ask about)
+## How it works 
 
 1. **Chunking** (`documind/ingest.py`) — documents are split into ~600-character
    overlapping windows that break on sentence boundaries. Overlap (100 chars)
@@ -75,13 +75,13 @@ DocuMind/
     └── rag.py             # orchestrator: retrieve → prompt → generate
 ```
 
-## Knobs to tune (and talk about)
+ Knobs to tune 
 - `chunk_size` / `chunk_overlap` — retrieval granularity vs. context.
 - `top_k` — recall vs. prompt-length/noise trade-off.
 - `embedding_model` — swap to `bge-small-en` for higher accuracy.
 - `llm_model` — `flan-t5-large` for quality, or wire an API client into `llm.py`.
 
-## Possible next steps (good things to mention as "future work")
+## Possible next steps 
 - Re-ranking retrieved chunks with a cross-encoder.
 - Hybrid search (BM25 keyword + dense vectors).
 - Per-source metadata filtering and access control.
