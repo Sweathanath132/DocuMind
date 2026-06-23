@@ -1,0 +1,12 @@
+# DocuMind — free / local RAG stack (no paid API keys required)
+sentence-transformers>=2.7.0      # embeddings (all-MiniLM-L6-v2, ~80MB, CPU-friendly)
+# vector search is done in NumPy (see documind/vectorstore.py) to avoid a
+# FAISS+PyTorch native-library conflict on some macOS / Python 3.13 setups.
+transformers>=4.41.0              # local LLM (google/flan-t5-base)
+torch>=2.2.0                      # backend for transformers
+pypdf>=4.2.0                      # PDF text extraction
+fastapi>=0.111.0                  # REST API
+uvicorn>=0.30.0                   # ASGI server
+python-multipart>=0.0.9          # file uploads in FastAPI
+gradio>=4.36.0                   # demo UI (used for Hugging Face Spaces)
+numpy>=1.26.0

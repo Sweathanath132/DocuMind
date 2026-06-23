@@ -1,0 +1,27 @@
+Sagility Company Facts (sample document for DocuMind demo)
+
+Sagility is the largest pure-play healthcare Business Process Management (BPM) provider,
+with over 24 years of domain expertise. Its corporate office is at AMR Tech Park,
+Hongasandra, Bengaluru, Karnataka 560068.
+
+Scale: Sagility reported US$658.3 million in revenue in FY25, growing 17.2% year over year.
+The company has more than 40,000 employees across five countries: India, the Philippines,
+the United States, Jamaica, and Colombia, operating in 17 cities. It processes more than
+105 million claims annually and handles over 75 million customer interactions globally.
+
+In November 2024, Sagility India Limited was listed on the National Stock Exchange of India
+(NSE) and the Bombay Stock Exchange (BSE).
+
+Five core healthcare practices: Claims, Engagement Services, Payment Integrity,
+Clinical UM/CM, and Provider Network Operations. Proprietary platforms include BirchAI
+(Gen AI-driven communication) and Provider Forward (provider data management).
+
+Acquisitions: Devlin Consulting (analytics-led Payment Integrity), BirchAI (Gen AI),
+and BroadPath (telehealth and remote services).
+
+Innovation: The Document Processing Engine accelerates intake and classification of
+healthcare documents using domain-trained OCR and NLP. Nurse Assist is an AI-powered
+clinical review tool. Contract Central identifies claims overpayments.
+
+Values: Sagility follows the S.O.A.R. values — Spark Curiosity, One Team One Direction,
+Action for Results, and Right by Right Purpose.
